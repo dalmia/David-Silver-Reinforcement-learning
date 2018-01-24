@@ -45,6 +45,9 @@ Please feel free to create a Pull Request for adding implementations of the algo
 ## Support
 If you found this useful, please consider starring(★) the repo so that it can reach a broader audience.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/dalmia/David-Silver-Reinforcement-learning/blob/master/LICENSE) file for details.
+
 ## References
 - https://github.com/dennybritz/reinforcement-learning
 - https://github.com/llSourcell/AI_for_Video_Games_Syllabus
