@@ -32,3 +32,13 @@ This repository contains the notes for the Reinforcement Learning [course](www0.
 - Numpy
 
 Install them using [pip](https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjRhLWLnfHYAhVEtY8KHRqfCc4QFggoMAA&url=https%3A%2F%2Fpip.pypa.io%2Fen%2Fstable%2F&usg=AOvVaw18gydNGbBQg6WMxXoxO97K).
+
+## Contributing
+Please feel free to create a Pull Request for adding implementations of the algorithms discussed in different frameworks like PyTorch, Caffe, etc. or improving the existing implementations. If you are a beginner, you can refer [this](https://opensource.guide/how-to-contribute/) for getting started.
+
+## Support
+If you found this useful, please consider starring(★) the repo so that it can reach a broader audience.
+
+## References
+- https://github.com/dennybritz/reinforcement-learning
+- https://github.com/llSourcell/AI_for_Video_Games_Syllabus
