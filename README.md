@@ -25,4 +25,10 @@ This repository contains the notes for the Reinforcement Learning [course](www0.
 - Week 10: Case Study: RL in Classic Games  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/games.pdf)][[video](https://www.youtube.com/watch?v=kZ_AUmFcZtk&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=10)]
 
 
+## Dependencies
+- TensorFlow
+- Keras
+- Gym
+- Numpy
 
+Install them using [pip](https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjRhLWLnfHYAhVEtY8KHRqfCc4QFggoMAA&url=https%3A%2F%2Fpip.pypa.io%2Fen%2Fstable%2F&usg=AOvVaw18gydNGbBQg6WMxXoxO97K).
