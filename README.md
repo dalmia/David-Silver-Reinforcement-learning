@@ -1,5 +1,11 @@
 # David-Silver-Reinforcement-learning
 
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)]()
+
+[![apm](https://img.shields.io/apm/l/vim-mode.svg)]()
+[![Build Status](https://travis-ci.org/athityakumar/colorls.svg?branch=master)](https://travis-ci.org/athityakumar/colorls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
+
 This repository contains the notes for the Reinforcement Learning [course](www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) by [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Home.html) along with the implementation of the various algorithms discussed, both in Keras (with TensorFlow backend) and [OpenAI](https://openai.com/)'s [gym](https://github.com/openai/gym) framework.
 
 ## Syllabus:
