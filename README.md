@@ -1,5 +1,6 @@
 # David-Silver-Reinforcement-learning 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%20170%20free%20design%20blocks%20based%20on%20Bootstrap%204&url=https://www.froala.com/design-blocks&via=froala&hashtags=bootstrap,design,templates,blocks,developers)
+
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=David%20Silver%20Reinforcement%20Learning%20course%20notes%20along%20with%20implementation&url=https://github.com/dalmia/David-Silver-Reinforcement-learning&hashtags=deeplearning,reinforcementlearning,python,machinelearning,keras)
 
 [![apm](https://img.shields.io/apm/l/vim-mode.svg)]()
 [![Build Status](https://travis-ci.org/athityakumar/colorls.svg?branch=master)](https://travis-ci.org/athityakumar/colorls)
