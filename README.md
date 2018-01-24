@@ -1,6 +1,6 @@
 # David-Silver-Reinforcement-learning
 
-This repository contains the notes for the Reinforcement Learning [course](www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) by [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Home.html) along with the implementation of the various algorithms discussed.
+This repository contains the notes for the Reinforcement Learning [course](www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) by [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Home.html) along with the implementation of the various algorithms discussed, both in Keras (with TensorFlow backend) and [OpenAI](https://openai.com/)'s [gym](https://github.com/openai/gym) framework.
 
 ## Syllabus:
 
