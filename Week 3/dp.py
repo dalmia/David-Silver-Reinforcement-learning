@@ -14,7 +14,7 @@ def one_step_lookahead(environment, state, V, discount_factor):
 	
 	"""
 	# Create a vector of dimensionality same as the number of actions
-	action_values = np.zeros(environment.env)
+	action_values = np.zeros(environment.nA)
 	
 	for action in range(environment.nA):
 		
