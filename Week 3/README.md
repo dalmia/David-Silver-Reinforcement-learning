@@ -18,10 +18,6 @@ You should get something similar to the image below.
 
 ![result](https://github.com/dalmia/David-Silver-Reinforcement-learning/blob/master/Week%203/result.png)
 
-## Dependencies
-- gym
-- numpy
-
 Install them using pip like this:
 ```
 pip install package_name
