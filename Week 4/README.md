@@ -17,4 +17,4 @@ for learning the optimal policy without knowing the transition probabilities and
                             of being in that state. This it the case of *Monte Carlo for Prediction*.
     
     - **Active Learning**: Estimate the optimal policy by moving in the environment. This is 
-                           the case of *Monte Carlo for Control*.
+                           the case of *Monte Carlo for Control* (Next week).
