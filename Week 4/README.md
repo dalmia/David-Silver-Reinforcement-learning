@@ -2,7 +2,7 @@
 
 This week covers the model free prediction algorithms like Monte-Carlo and TD Learning. The code demonstrates these algorithms in different environments.
 
-## Theory
+## Summary
 - The algorithms we studied in Week 3 required that the model knows the entire dynamics of the environment and can compute what 
 the outcome of its actions will be before actually performing the action. This is the reason it was called *Planning*.
 
