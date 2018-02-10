@@ -16,16 +16,20 @@ However, the harder RL problem is when the model doesn't know anything about the
     
     - **Active Learning**: Estimate the optimal policy by moving in the environment. This is 
                            the case of *Monte Free Control* ([Week 5](https://github.com/dalmia/David-Silver-Reinforcement-learning/tree/master/Week%205)).
-
-### Model Free Prediction
+                           
+Characteristics of Model free prediction algorithms:
 
 - Policy already given
 - Learn directly from episodes of experience. 
 
-#### Algorithms
+### Algorithms
 
 - Monte-Carlo Learning: 
   - Applicable to episodic MDPs (those which terminate)
-  - Idea - Use the empirical mean (instead of the expectation) of sample returns across many episodes as the value for a particular state.
+  - Idea - Use the empirical mean (instead of the expectation) of sample returns across many episodes as the value for a particular state. This works because of the law of large numbers.
+  - 2 Methods: First-Visit (count only the first time a state is visited in an episode) and Every-Visit (multiple visits possible for each state in an episode).
+  - Mean is calculated incrementally with a weight added to decrease the significance of older values.
+ 
+- Temporal Difference Learning
   
   
