@@ -24,12 +24,15 @@ Characteristics of Model free prediction algorithms:
 
 ### Algorithms
 
-- Monte-Carlo Learning: 
+- Monte-Carlo Learning (MC):
   - Applicable to episodic MDPs (those which terminate)
   - Idea - Use the empirical mean (instead of the expectation) of sample returns across many episodes as the value for a particular state. This works because of the law of large numbers.
   - 2 Methods: First-Visit (count only the first time a state is visited in an episode) and Every-Visit (multiple visits possible for each state in an episode).
   - Mean is calculated incrementally with a weight added to decrease the significance of older values.
  
-- Temporal Difference Learning
+- Temporal Difference Learning (TD):
+  - Learn from incomplete sequences (bootstrapping) - Make a guess -> Move some steps -> Make another guess -> Use this guess to improve our original guess
+  - Several advantages over MC - facilitates online learning, can learn without the final outcome, less noisy (hence, low variance, although there's some bias too) 
   
+- Batch MC / TD
   
