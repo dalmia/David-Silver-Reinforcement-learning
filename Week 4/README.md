@@ -1,6 +1,6 @@
 # Week 4: Model-Free Prediction
 
-This week covers the model free prediction algorithms like Monte-Carl and TD Learning. The code demonstrates these algorithms in different environments.
+This week covers the model free prediction algorithms like Monte-Carlo and TD Learning. The code demonstrates these algorithms in different environments.
 
 ## Theory
 - The algorithms we studied in Week 3 required that the model knows the entire dynamics of the environment and can compute what 
