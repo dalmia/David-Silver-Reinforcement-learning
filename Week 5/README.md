@@ -29,5 +29,14 @@ The code demonstrates these algorithms in different environments.
 
 - In the TD equivalent of this, we don't need to wait for the entire episode and can instead update after each step in the episode. This is the idea behind SARSA -> Initially in state S and took action A -> Environment caused the agent to move to state S' -> Sample action A' from S' based on current policy -> Update ONLY Q(S, A). Finally, TD(0) can be replaced by TD(λ), in which case it is called SARSA (λ).
 
-- 
+- Off-Policy Learning: Evaluate target policy π, following behaviour policy μ. 
+- Many use cases:
+  - Re-use experience from old policies.
+  - Want a deterministic optimal policy but also want to keep exploring.
+- Importance sampling (IS) -> Method for sampling returns from μ to evaluate π -> Not used too much.
+
+- **Q-Learning** -> Best for Off-Policy Learning: 
+  - No IS
+  - Make use of Q-values
+  - Sample an action A from μ, as well as an alternate successor action A' from π. Update Q(S, A) towards the value of the successive action, i.e. Q(S', A'). This allows both the policies to improve. Learn greedy policy (π) from exploratory policy (μ). π is greedy w.r.t. Q(S', A') and μ is ∈-greedy w.r.t. Q(S, A). This further simplifies the Q-learning objective.
    
