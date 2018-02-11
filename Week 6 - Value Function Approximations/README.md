@@ -8,15 +8,15 @@ The code demonstrates these algorithms in different environments.
 - The methods that have been described earlier are not practical for the kind of problems that RL are applied to because of the sheer number of states and corresponding actions possible. For large-scale problems, we use **Function Approximators**. This week covers Value Function Approximations (VFA), while the next week looks at Policy Based Approximations.
 
 - There are two kinds of approaches to function approximations:
-  - Incremental Methods: Update value function online upon seeing new data.
-  - Batch Methods: Update value function in a batch.
+  - **Incremental Method**: Update value function online upon seeing new data.
+  - **Batch Methods**: Update value function in a batch.
 
 - The idea is to estimate the value function for the entire state (and action) space using only a set of parameters *W*.
   The advantages are two fold:
   - It saves memory.
   - It allows generalization to unseen states.
 
-- We have many different function approximators (FAs) like Decision Tree, Neural Networks, etc. Here, we stick to only those FAs which are differentiable - Linear combination of features and Neural Networks. The challenge compared to Supervised Learning (SL) is that the data is non-iid.
+- We have many different function approximators (FAs) like Decision Tree, Neural Networks, etc. Here, we stick to only those FAs which are differentiable - *Linear combination of features* and *Neural Networks*. The challenge compared to Supervised Learning (SL) is that the data is non-iid.
 
 - Use Gradient descent for updating the weights according to the cost function. 
 
@@ -38,6 +38,6 @@ The code demonstrates these algorithms in different environments.
 
 - The problem with incremental methods is that it is not sample efficient, i.e. it throws away experience after one use. **Batch methods** find the best fitting value to the entire batch. Use Least Squares fit to minimize the error over the entire dataset `D`.
 
-- An easy way to find the least squares solution is to use Experience Relay (ER) the entire experience is stored and the objective is to accurately fit to data randomly sampled from that experience using Stochastic Gradient Descent (SGD). The global optimum reached is the true Least Squares solution. ER along with fixed Q-targets played an important role in maintaining the stability of Deep Q-Networks [DQN] (FA -> Big NN). Fixed Q-targets refers to freezing the model at an earlier stage and using that to specify the Q-learning targets (making them fixed).
+- An easy way to find the least squares solution is to use **Experience Relay (ER)** the entire experience is stored and the objective is to accurately fit to data randomly sampled from that experience using Stochastic Gradient Descent (SGD). The global optimum reached is the true Least Squares solution. ER along with fixed Q-targets played an important role in maintaining the stability of Deep Q-Networks [DQN] (FA -> Big NN). Fixed Q-targets refers to freezing the model at an earlier stage and using that to specify the Q-learning targets (making them fixed).
 
 - In case of linear FA, we can jump directly to the optimal solution using the fact that at the optimal point, the update for the parameters would be 0.
