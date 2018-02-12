@@ -1,6 +1,6 @@
 # Week 4: Model-Free Prediction
 
-This week covers the model free prediction algorithms like Monte-Carlo and TD Learning. The code demonstrates these algorithms in different environments.
+This week covers the model free prediction algorithms like Monte-Carlo and TD Learning. The code demonstrates the Monte-Carlo First-Visit Algorithm for the BlackJack Environment.
 
 ## Summary
 - The algorithms we studied in Week 3 required that the model knows the entire dynamics of the environment and can compute what 
@@ -42,3 +42,21 @@ Characteristics of Model free prediction algorithms:
 - Batch MC / TD
   - Have K episodes of experience and need to learn by repeatedly iterating over them.
   - MC reduces the mean square error while TD tries to build an MDP that best fits the data (i.e Max Likelihood).
+
+## Running the code
+
+```
+python model_free_prediction.py
+```
+## Results
+
+- After running for 10000 iterations
+  ![no ace](results/10000_no_ace.png)
+  ![ace](results/10000_ace.png)
+  
+- After running for 500000 iterations
+  ![no ace](results/500000_no_ace.png)
+  ![ace](results/500000_ace.png)
+  
+## References
+https://github.com/dennybritz/reinforcement-learning/tree/master/MC
