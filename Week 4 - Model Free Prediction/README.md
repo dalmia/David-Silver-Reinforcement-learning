@@ -16,11 +16,10 @@ the outcome of its actions will be before actually performing the action. This i
     
     - **Active Learning**: Estimate the optimal policy by moving in the environment. This is 
                            the case of *Model Free Control* ([Week 5](https://github.com/dalmia/David-Silver-Reinforcement-learning/tree/master/Week%205)).
-                           
-Characteristics of Model free prediction algorithms:
-
-- Policy already given
-- Learn directly from episodes of experience. 
+                          
+- Characteristics of Model free prediction algorithms:
+  - Policy already given
+  - Learn directly from episodes of experience. 
 
 ### Algorithms
 
@@ -50,11 +49,11 @@ python model_free_prediction.py
 ```
 ## Results
 
-- After running for 10000 iterations
+- After running for 10000 episodes
   ![no ace](results/10000_no_ace.png)
   ![ace](results/10000_ace.png)
   
-- After running for 500000 iterations
+- After running for 500000 episodes
   ![no ace](results/500000_no_ace.png)
   ![ace](results/500000_ace.png)
   
