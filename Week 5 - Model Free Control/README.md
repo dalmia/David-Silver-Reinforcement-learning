@@ -1,7 +1,6 @@
 # Week 5: Model Free Control
 
-This week covers the model free control algorithms like the Monte-Carlo and TD equivalent, along with the famous Q-learning algorithm.
-The code demonstrates these algorithms in different environments.
+This week covers the model free control algorithms like the Monte-Carlo and TD equivalent, along with the famous Q-learning algorithm. The code demonstrates these algorithms in different environments.
 
 ## Summary
 
@@ -40,3 +39,21 @@ The code demonstrates these algorithms in different environments.
   - Make use of Q-values
   - Sample an action A from μ, as well as an alternate successor action A' from π. Update Q(S, A) towards the value of the successive action, i.e. Q(S', A'). This allows both the policies to improve. Learn greedy policy (π) from exploratory policy (μ). π is greedy w.r.t. Q(S', A') and μ is ∈-greedy w.r.t. Q(S, A). This further simplifies the Q-learning objective.
    
+## Running the code
+
+```
+python model_free_prediction.py
+```
+## Results
+
+- First Visit Monte-Carlo for on-policy learning
+  - After running for 10000 episodes
+    ![no ace](results/10000_no_ace.png)
+    ![ace](results/10000_ace.png)
+
+  - After running for 500000 episodes
+    ![no ace](results/500000_no_ace.png)
+    ![ace](results/500000_ace.png)
+  
+## References
+https://github.com/dennybritz/reinforcement-learning/tree/master/MC
