@@ -1,6 +1,6 @@
 # Week 6: Value Function Approximations
 
-This week covers the value function approximations which make RL scalable. 
+This week covers the value function approximations which make RL scalable and were the key components behind the famous Deep Q-Networks (DQN).
 The code demonstrates these algorithms in different environments.
 
 ## Summary
