@@ -41,9 +41,17 @@ This week covers the model free control algorithms like the Monte-Carlo and TD e
    
 ## Running the code
 
+For running the python file:
 ```
 python model_free_prediction.py
 ```
+The Jupyter notebooks can be run directly using:
+
+```
+jupyter notebook
+
+```
+
 ## Results
 
 - First Visit Monte-Carlo for on-policy learning
@@ -54,6 +62,11 @@ python model_free_prediction.py
   - After running for 500000 episodes
     ![no ace](results/500000_no_ace.png)
     ![ace](results/500000_ace.png)
+   
+- SARSA
+  ![episode length](results/episode_length.png)
+  ![reward](results/rewards.png)
   
 ## References
 https://github.com/dennybritz/reinforcement-learning/tree/master/MC
+https://github.com/dennybritz/reinforcement-learning/tree/master/TD
