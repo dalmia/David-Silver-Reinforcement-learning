@@ -68,5 +68,5 @@ jupyter notebook
   ![reward](results/rewards.png)
   
 ## References
-https://github.com/dennybritz/reinforcement-learning/tree/master/MC
-https://github.com/dennybritz/reinforcement-learning/tree/master/TD
+- https://github.com/dennybritz/reinforcement-learning/tree/master/MC
+- https://github.com/dennybritz/reinforcement-learning/tree/master/TD
