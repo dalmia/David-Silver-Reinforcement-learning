@@ -41,3 +41,13 @@ The code demonstrates these algorithms in different environments.
 - An easy way to find the least squares solution is to use **Experience Relay (ER)** the entire experience is stored and the objective is to accurately fit to data randomly sampled from that experience using Stochastic Gradient Descent (SGD). The global optimum reached is the true Least Squares solution. ER along with fixed Q-targets played an important role in maintaining the stability of Deep Q-Networks [DQN] (FA -> Big NN). Fixed Q-targets refers to freezing the model at an earlier stage and using that to specify the Q-learning targets (making them fixed).
 
 - In case of linear FA, we can jump directly to the optimal solution using the fact that at the optimal point, the update for the parameters would be 0.
+
+## Results
+
+- Q-Learning with Value Function Approximation:
+  ![value][results/value.png]
+  ![reward][results/reward.png]
+ 
+## References
+- https://github.com/dennybritz/reinforcement-learning/tree/master/DQN
+- https://github.com/dennybritz/reinforcement-learning/tree/master/FA
