@@ -25,7 +25,7 @@ This week covers the Policy Gradient methods which are the most widely used clas
   - Deterministic policy can be easily exploitable
   - In the case of state aliasing where we don't have access to the full MDP (maybe features giving some information about the states), stochastic policy works better than deterministic.
 
-- Policy Objective Functions
+- **Policy Objective Functions** (J(ϴ)) types:
   - Based on the start state value
   - Based on the average value from a state onwards
   - Based on the average value per time step from a state onwards
