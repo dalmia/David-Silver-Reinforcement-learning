@@ -72,7 +72,7 @@ for iteration_name, iteration_func in solvers:
 	print('Done.')
 	
 	print('\n Final policy derived using {iteration_name}:')
-	print(''.join([action_mapping[action] for action in np.argmax(policy, axis=1)]))
+	print(''.join([action_mappings[action] for action in np.argmax(policy, axis=1)]))
 	
 	# Use the learnt policy for playing a few episodes of the game
 	wins, total_reward, average_reward = play_episodes(environment, n_episodes, policy)
