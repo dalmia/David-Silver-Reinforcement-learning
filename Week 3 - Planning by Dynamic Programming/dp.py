@@ -206,7 +206,7 @@ def value_iteration(environment, discount_factor=1.0, theta=1e-9, max_iterations
 	
 	for state in range(environment.nS):
 		
-		action_values = one_step_lookahead(environment, state, action_values, discount_factor)
+		action_values = one_step_lookahead(environment, state, V, discount_factor)
 		
 		# Choose the best action
 		best_action = np.argmax(action_values)
