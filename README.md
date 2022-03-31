@@ -10,25 +10,25 @@ This repository contains the notes for the Reinforcement Learning [course](www0.
 
 ## Syllabus:
 
-- Week 1: Introduction to Reinforcement Learning [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)][[video](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=1)]
+- Week 1: Introduction to Reinforcement Learning [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/intro_RL.pdf)][[video](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=1)]
 
-- Week 2: Markov Decision Processes  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MDP.pdf)][[video](https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&t=3223s)]
+- Week 2: Markov Decision Processes  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/MDP.pdf)][[video](https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=2&t=3223s)]
 
-- Week 3: Planning by Dynamic Programming  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/DP.pdf)][[video](https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3&t=417s)]
+- Week 3: Planning by Dynamic Programming  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/DP.pdf)][[video](https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=3&t=417s)]
 
-- Week 4: Model-Free Prediction  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MC-TD.pdf)][[video](https://www.youtube.com/watch?v=PnHCvfgC_ZA&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=4)]
+- Week 4: Model-Free Prediction  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/MC-TD.pdf)][[video](https://www.youtube.com/watch?v=PnHCvfgC_ZA&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=4)]
 
-- Week 5: Model-Free Control  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/control.pdf)][[video](https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5)]
+- Week 5: Model-Free Control  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/control.pdf)][[video](https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=5)]
 
-- Week 6: Value Function Approximation  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/FA.pdf)][[video](https://www.youtube.com/watch?v=UoPei5o4fps&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=6)]
+- Week 6: Value Function Approximation  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/FA.pdf)][[video](https://www.youtube.com/watch?v=UoPei5o4fps&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=6)]
 
-- Week 7: Policy Gradient Methods  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/pg.pdf)][[video](https://www.youtube.com/watch?v=KHZVXao4qXs&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=7)]
+- Week 7: Policy Gradient Methods  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/pg.pdf)][[video](https://www.youtube.com/watch?v=KHZVXao4qXs&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=7)]
 
-- Week 8: Integrating Learning and Planning  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/dyna.pdf)][[video](https://www.youtube.com/watch?v=ItMutbeOHtc&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=8)]
+- Week 8: Integrating Learning and Planning  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/dyna.pdf)][[video](https://www.youtube.com/watch?v=ItMutbeOHtc&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=8)]
 
-- Week 9: Exploration and Exploitation  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/XX.pdf)][[video](https://www.youtube.com/watch?v=sGuiWX07sKw&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=9)]
+- Week 9: Exploration and Exploitation  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/XX.pdf)][[video](https://www.youtube.com/watch?v=sGuiWX07sKw&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=9)]
 
-- Week 10: Case Study: RL in Classic Games  [[slide](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/games.pdf)][[video](https://www.youtube.com/watch?v=kZ_AUmFcZtk&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=10)]
+- Week 10: Case Study: RL in Classic Games  [[slide](https://www.davidsilver.uk/wp-content/uploads/2020/03/games.pdf)][[video](https://www.youtube.com/watch?v=kZ_AUmFcZtk&list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT&index=10)]
 
 
 ## Dependencies
